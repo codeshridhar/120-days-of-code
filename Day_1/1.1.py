@@ -1,0 +1,11 @@
+print("this is my second practice of the print and the input and the variables of the pythoN")
+print("*" * 30)
+nameip = input("What is your name ?")
+colourip = input("now tell me your favourite colour !")
+print("*" * 30)
+print(f"woe {nameip} likes {colourip} colour !")
+print("*" * 30)
+print(f"now lets calculate {nameip}'s age ")
+birthyr = int(input("enter your birth year ! "))
+age = 2026 - birthyr
+print(f"{nameip} youe are {age} years old")
