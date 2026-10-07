@@ -1,0 +1,16 @@
+1. patterns making 
+
+2. nested loops 
+
+3. match case usseful in python it is efficient than the if-elif-else
+    syntax -->
+         match subject:
+            case pattern1:
+                ...
+            case pattern2:
+                ...
+            case _:
+                ...   # default case
+
+
+
