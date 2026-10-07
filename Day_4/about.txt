@@ -1,0 +1,21 @@
+"""
+List 
+
+"""
+✅ Lists use SQUARE BRACKETS [ ]
+✅ Items are separated by COMMAS
+✅ Lists are ORDERED (items stay in the order you add them)
+✅ Lists are MUTABLE (you can change them after creation)
+✅ Lists allow DUPLICATES
+
+
+list.append("text")  → When you just want to ADD to the end (MOST COMMON)
+list.insert(index, "text" )  → When you want to ADD at a SPECIFIC position
+
+
+Method     n │   Removes By   │  Returns?    │   Example   |
+.remove()    │   VALUE        │   No         │ .remove("x")│
+.pop()       │   INDEX        │   Yes        │ .pop(0)     │
+.del         │   INDEX        │   No         │ del list[0] │
+.clear()     │   EVERYTHING   │   No         │ .clear()    │
+
